@@ -685,7 +685,7 @@ class Button extends Component {
 
 ```jsx
 // good
-import cx from 'classnames';
+import classNames from 'classnames';
  
 class Button extends Component {
   // ... 
