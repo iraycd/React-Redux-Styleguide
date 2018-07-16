@@ -1186,7 +1186,7 @@ Side effects like ajax calls, logging, dom updates, etc, should **__never__** be
 
 - **action types** - use constants, *[NOUN]_\[VERB]*, eg. `USER_FETCH` or `MATERIAL_REQUEST_UPDATE`
 - **action creators** - *[verb]\[Noun]()* eg. `fetchCurrentUser()`, `acceptMaterialRequest()`
-- **selectors** - *get\[NOUN]()* or *select\[NOUN]()* eg. `getSelectedCards()`, `selectActiveRows()`
+- **selectors** - *get\[Noun]()* or *select\[Noun]()* eg. `getSelectedCards()`, `selectActiveRows()`
 
 
 ## Utility/Helper Functions
