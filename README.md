@@ -365,7 +365,7 @@ const Comment = ({ body, author }) => (
 
 const CommentList = ({ comments }) => (
     <ul>
-     {this.props.comments.map(comment => <Comment {...comment}/>)}
+     {comments.map(comment => <Comment {...comment}/>)}
     </ul>
 );
 ```
