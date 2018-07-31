@@ -769,7 +769,7 @@ Useful Resources:
 ### Organization
 
 <a name="redux-organization--feature_first_ducks"></a><a name="8.1"></a> 
-§ [8.1](#redux-organization--feature_first_ducks) **Co-locate reducers, actions, action-types and reducers (*similar to [ducks](https://github.com/erikras/ducks-modular-redux) standard*)**: Organizing your redux related code around the reducer (*the slice of store state it manages*) by bundling your `actions`, `action types` w/ the `reducer` helps organize your redux code into reusable modules, is clean, reduces unnecessary boilerplate and eases developer effort by co-locating.
+§ [8.1](#redux-organization--feature_first_ducks) **Co-locate reducers, actions, action-types and selectors (*similar to [ducks](https://github.com/erikras/ducks-modular-redux) standard*)**: Organizing your redux related code around the reducer (*the slice of store state it manages*) by bundling your `actions`, `action types` w/ the `reducer` helps organize your redux code into reusable modules, is clean, reduces unnecessary boilerplate and eases developer effort by co-locating.
 
 > **Tip:** Our suggested format is a slight modification of the [DUCKS](https://github.com/erikras/ducks-modular-redux) standard which is widely adopted. Instead of including the reducer, actions, types in a single file, we separate them to ease usage/importing and keep them in a shared folder for the module.
 
