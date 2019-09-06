@@ -1196,8 +1196,3 @@ You'll likely need or want to build utility functions or libraries of them that 
 - Util functions should be reusable, but have a single purpose.
 
 > Written with [StackEdit](https://stackedit.io/).
-
-
-## Credits:
-
-Inspired from [Dave Atchley - Gist](https://gist.github.com/datchley/4e0d05c526d532d1b05bf9b48b174faf)
